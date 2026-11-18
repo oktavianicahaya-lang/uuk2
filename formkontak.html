@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Teknologi Saya</title>
+    <link rel="stylesheet" href="formkontak.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Blog Teknologi Saya</h1>
+        <p>Informasi Dan Perkembangan Teknologi Masa Kini!</p>
+    </header>
+
+    <main>
+
+
+        <article>
+            <h2>Perkembangan Teknologi Di Era Digital</h2>
+
+            <img src="foto/technology-9825716_1280.jpg" alt="Gambar teknologi digital" class="gambar-artikel">
+            <p>
+                Teknologi digital berkembang sangat pesat
+                dalam kehidupan manusia. Berbagai perangkat seperti
+                komputer, smartphone, dan internet membantu
+                manusia dalam berkomunikasi, belajar, serta
+                menyelesaikan pekerjaan sehari-hari.
+
+            </p>
+
+            <p>
+                Perkembangan teknologi memberikan banyak manfaat,
+                seperti mempermudah akses informasi dan meningkatkan
+                efisiensi pekerjaan. Oleh karena itu, kita harus
+                menggunakan teknologi secara bijak dan bertanggung jawab.
+            </p>
+        </article>
+
+        <aside>
+            <img src="foto/Scout Portrait on Red Background.png" alt="Foto profil penulis" class="foto-profil">
+
+            <h3>Tentang Penulis</h3>
+
+            <p>
+                Halo! Saya adalah penulis blog teknologi.
+                Saya tertarik dengan dunia komputer,
+                pemrograman, dan perkembangan teknologi digital.
+            </p>
+        </aside>
+
+    </main>
+    <form id="formKontak" action="#" method="get">
+
+        <h2>Form Kontak</h2>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required minlength="3" maxlength="50">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        <br>
+
+        <label for="topik">Topik:</label>
+        <select id="topik" name="topik" required>
+            <option value="">-- PILIH --</option>
+            <option value="Teknologi">Teknologi</option>
+            <option value="Komputer">Komputer</option>
+            <option value="Pemrograman">Pemrograman</option>
+        </select>
+
+        <label for="Pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" required minlength="10" maxlength="200"></textarea>
+
+        <div class="Langganan">
+            <input type="checkbox" id="langganan" name="Langganan">
+            <label for="Langganan">
+                langganan artikel baru.
+            </label>
+        </div>
+
+        <div><button type="submit">Kirim</button></div>
+
+    </form>
+
+    <footer>
+        <p>&copy; 2026, Blog teknologi saya. Hak cipta dilindungi</p>
+    </footer>
+</body>
+
+</html>

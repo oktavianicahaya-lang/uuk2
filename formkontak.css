@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(199, 39, 145);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+article {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+article h2 {
+    color: rgb(199, 39, 145);
+}
+
+.gambar-artikel {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+aside {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.foto-profil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#formKontak {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#formKontak h2 {
+    text-align: center;
+    color: rgb(199, 39, 145);
+}
+
+#formKontak label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#formKontak input[type="text"],
+#formKontak input[type="email"],
+#formKontak select,
+#formKontak textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+#formKontak textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.langganan {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.langganan label {
+    margin: 0 !important;
+}
+
+button[type="submit"] {
+    background-color: rgb(199, 39, 145);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(199, 39, 145);
+}
+
+
+footer {
+    background-color: rgb(199, 39, 145);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+    article,
+    aside {
+        width: 100%;
+    }
+}
